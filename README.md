@@ -1,12 +1,18 @@
 # Rubocop::Diff
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubocop/diff`. To experiment with that code, run `bin/console` for an interactive prompt.
+Rubocop-diff runs rubocop, but gives you a report only for the lines you have changed. This can be useful in particularly nasty projects where you can't fix entire files at a time.
 
-TODO: Delete this and the text above, and describe your gem
+## Manual Dependencies
+Git: You will need git installed as rubocop-diff uses it to to figure out the diff
 
 ## Installation
 
-Add this line to your application's Gemfile:
+You probably have rubocop installed globally, so you want rubocop-diff installed globally too.
+```bash
+$ gem install rubocop-diff
+```
+
+Or, you could add this line to your application's Gemfile:
 
 ```ruby
 gem 'rubocop-diff'
@@ -16,13 +22,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install rubocop-diff
-
 ## Usage
 
-TODO: Write usage instructions here
+Just run
+```bash
+$ rubocop-diff
+```
+in your working directory
 
 ## Development
 
@@ -32,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rubocop-diff.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mcgain/rubocop-diff.
 
 
 ## License
