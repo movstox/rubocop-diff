@@ -2,6 +2,7 @@
 
 Rubocop-diff runs rubocop, but gives you a report only for the lines you have changed. This can be useful in particularly nasty projects where you can't fix entire files at a time.
 
+![Build Status](https://travis-ci.org/mcgain/rubocop-diff.svg?branch=master) [![Code Climate](https://codeclimate.com/github/mcgain/rubocop-diff/badges/gpa.svg)](https://codeclimate.com/github/mcgain/rubocop-diff) [![Test Coverage](https://codeclimate.com/github/mcgain/rubocop-diff/badges/coverage.svg)](https://codeclimate.com/github/mcgain/rubocop-diff/coverage) [![Issue Count](https://codeclimate.com/github/mcgain/rubocop-diff/badges/issue_count.svg)](https://codeclimate.com/github/mcgain/rubocop-diff)
 ## Manual Dependencies
 Git: You will need git installed as rubocop-diff uses it to to figure out the diff
 
