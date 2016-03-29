@@ -7,8 +7,8 @@ require 'pry-byebug'
 module RuboCop
   class Diff
     def run(args)
-      args << '--format'
-      args << 'RuboCop::Diff::Formatter'
+      args << ' --format'
+      args << ' RuboCop::Diff::Formatter'
       RuboCop::CLI.new.run(args)
     end
   end
